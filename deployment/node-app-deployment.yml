@@ -25,6 +25,6 @@ spec:
     spec:
       containers:
         - name: node-project
-          image: node-app:latest
+          image: affandaudkhan/nodeapp:tagname
           ports:
             - containerPort: 80
