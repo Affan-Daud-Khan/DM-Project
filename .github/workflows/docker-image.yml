@@ -57,5 +57,4 @@ jobs:
         with:
           context: "{{defaultContext}}"
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: node-app:latest
